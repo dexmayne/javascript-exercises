@@ -1,8 +1,8 @@
 const repeatString = (str, numRepeats) => {
  
-	let finalString = '';
+    let finalString = '';
 
-	if(numRepeats < 1 && numRepeats != 0){
+	if(numRepeats < 0){
   	return "ERROR";
     }
 
